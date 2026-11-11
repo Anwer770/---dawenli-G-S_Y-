@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Tajawal', sans-serif;
+  }
+}
+
+.font-lemonada {
+  font-family: 'Lemonada', cursive, sans-serif;
+}
+
+.font-tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* Custom subtle paper scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F1E4;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D0C0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8B0A0;
+}

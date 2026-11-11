@@ -1,0 +1,6 @@
+{
+  "name": "دوّنلي (Dawenli)",
+  "description": "رفيق تدوين شخصي ذكي باللغة العربية يرتّب يومك ومصاريفك وصحتك وعاداتك وأهدافك ومهامك بصوتك أو كتابتك.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
